@@ -11,7 +11,7 @@
 }
 
 .aside__header {
-  min-height: 200px;
+  min-height: 182px;
   background-color: rgb(242, 230, 128);
 }
 
@@ -25,7 +25,7 @@
   background-color: #fff;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .aside {
     max-width: 240px;
   }

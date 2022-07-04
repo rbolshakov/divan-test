@@ -2,10 +2,12 @@
   position: relative;
   clear: both;
   margin: 11px 0 0 0;
+  padding: 0;
+  display: flex;
 }
 
-.tab {
-  float: left;
+.tab input {
+  display: none;
 }
 
 .tab label {
@@ -14,6 +16,7 @@
   position: relative;
   left: 1px;
   cursor: pointer;
+  height: 60px;
 }
 
 body > nav > ul > div:nth-child(1) > label {
@@ -103,4 +106,10 @@ body > nav > ul > div:nth-child(3) > section {
 
 .bottom__item:not(:last-child) {
   margin: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__items {
+    margin-right: 300px;
+  }
 }
