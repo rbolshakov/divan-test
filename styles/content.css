@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+}
+
+.content__item {
+  min-width: 100px;
+  margin: 0 10px 10px 0;
+  border-radius: 5px;
+  min-height: 20px;
+  background-color: rgb(198, 198, 198);
+}

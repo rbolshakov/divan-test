@@ -1,0 +1,28 @@
+.nav__list {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__about {
+  background-color: rgb(239, 239, 239);
+}
+
+.nav__about:focus + .content__items {
+  display: flex;
+}
