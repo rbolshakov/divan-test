@@ -1,14 +1,16 @@
 .aside {
   position: relative;
-  top: -200px;
-  margin: 0 50px 0 0;
+  top: -172px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 3em;
   -webkit-box-shadow: 0px 5px 43px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 5px 43px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 5px 43px 2px rgba(34, 60, 80, 0.2);
+  z-index: 20;
 }
 
 .aside__header {
-  min-width: 400px;
   min-height: 200px;
   background-color: rgb(242, 230, 128);
 }
@@ -19,5 +21,12 @@
 }
 
 .aside__content {
-  min-height: 400px;
+  min-height: 350px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .aside {
+    max-width: 240px;
+  }
 }
